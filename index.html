@@ -105,23 +105,22 @@
                         aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"
                         src="./img/TNVHDG.png" alt="">
                     <h4 class="fw-normal mt-3" id="p10">Thuật ngữ Văn học Dân gian</h4>
-                    <p>Là dự án được tham gia trong quá trình thực tập tại Trường ĐH Sư Phạm TP.HCM. Là dự
-                        án
-                        web-app về từ điển trực tuyến ngôn ngữ Việt Nam, với dữ liệu khổng lồ các từ ngữ cho phép người
+                    <p id="p14">Là dự án được tham gia trong quá trình thực tập tại Trường ĐH Sư Phạm TP.HCM. Là dự
+                        án web-app về từ điển trực tuyến ngôn ngữ Việt Nam, với dữ liệu khổng lồ các từ ngữ cho phép người
                         dùng có thể tra cứu. Ý tưởng dự án của khoa Ngữ Văn - Trường Đại học Sư Phạm TP.HCM</p>
-                    <p><strong>Người hướng dẫn chính:</strong> <i>Thầy Mai Văn Phương Vũ</i></p>
-                    <p><a class="btn btn-secondary" href="./components/TNVHDG_desc.html">Xem mô tả »</a></p>
+                    <p id="p15"><strong>Người hướng dẫn chính:</strong> <i>Thầy Mai Văn Phương Vũ</i></p>
+                    <p ><a class=" btn btn-secondary" href="./components/TNVHDG_desc.html">Xem mô tả »</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
                     <img class="bd-placeholder-img rounded-circle" width="140" height="140" role="img"
                         aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"
                         src="./img/Laravel.png" alt="">
                     <h4 class="fw-normal mt-3" id="p11">E-Commerce Laravel v9</h4>
-                    <p>Là dự án thương mại điện tử đơn giản, phục vụ cho bài tập lớn của học phần Công nghệ Web khi còn
+                    <p id="p16">Là dự án thương mại điện tử đơn giản, phục vụ cho bài tập lớn của học phần Công nghệ Web khi còn
                         đang theo học tại Trường Đại học Sư Phạm TP.HCM.</p>
-                    <p><strong>Công nghệ sử dụng: </strong><i>HTML + Bootstrap (FE) - Laravel (BE) - MySQL</i></p>
-                    <p><strong>Hướng dẫn chính: </strong><i>tự nghiên cứu</i></p>
-                    <p><a class="btn btn-secondary" href="./components/Laravel_desc.html">Xem mô tả »</a></p>
+                    <p id="p17"><strong>Công nghệ sử dụng: </strong><i>HTML + Bootstrap (FE) - Laravel (BE) - MySQL</i></p>
+                    <p id="p18"><strong>Hướng dẫn chính: </strong><i>tự nghiên cứu</i></p>
+                    <p ><a class=" btn btn-secondary" href="./components/Laravel_desc.html">Xem mô tả »</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
                     <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
@@ -134,8 +133,8 @@
                         aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"
                         src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
                         alt="">
-                    <h4 class="fw-normal mt-3">Ngoài ra..</h4>
-                    <p>Còn có những project khác, được liệt kê rõ trong bản CV cá nhân, hoặc có thể xem ở dưới đây.</p>
+                    <h4 class="fw-normal mt-3" id="p12">Ngoài ra..</h4>
+                    <p id="p13">Còn có những project khác, được liệt kê rõ trong bản CV cá nhân, hoặc có thể xem ở dưới đây.</p>
                     <p>
                         <!-- <a class="btn btn-secondary" href="#" onclick="scrollToElement()">Cuộn xuống »</a> -->
                         <button class="btn btn-secondary" onclick="scrollToElement()">Cuộn xuống »</button>
@@ -267,6 +266,13 @@
                 let p9 = document.getElementById("p9")
                 let p10 = document.getElementById("p10")
                 let p11 = document.getElementById("p11")
+                let p12 = document.getElementById("p12")
+                let p13 = document.getElementById("p13")
+                let p14 = document.getElementById("p14")
+                let p15 = document.getElementById("p15")
+                let p16 = document.getElementById("p16")
+                let p17 = document.getElementById("p17")
+                let p18 = document.getElementById("p18")
 
                 p1.innerText = "Hello"
                 p2.innerText = "Click the button to see my Curriculum vitae (CV)"
@@ -279,6 +285,13 @@
                 p9.innerText = "I can't show you directly, but there will be detailed descriptions of the projects when you visit each section below!"
                 p10.innerText = "'Literary dictionary' Project"
                 p11.innerText = "E-Commerce (using Laravel 10) Project"
+                p12.innerText = "Moreover"
+                p13.innerText = "There are other projects, clearly listed in the CV, or can be viewed below."
+                p14.innerText = "This is a project I participated in during my internship at Ho Chi Minh City University of Pedagogy. This is a web-app project about an Vietnamese language dictionary, with a huge database of words that allows users to look up. Project idea belongs to the Department of Literature - Ho Chi Minh City University of Pedagogy."
+                p15.innerHTML = "<strong>Lecturer:</strong> <i>Mr. Mai Văn Phương Vũ</i>"
+                p16.innerText = "It is a simple e-commerce project, serving a major assignment in the Web Technology subject while studying at Ho Chi Minh City University of Pedagogy."
+                p17.innerHTML = "<strong>Technology used: </strong><i>HTML + Bootstrap (FE) - Laravel (BE) - MySQL</i>"
+                p18.innerHTML = "<strong>Self-study </strong>"
             }
 
         </script>
