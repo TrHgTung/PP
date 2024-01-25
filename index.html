@@ -109,7 +109,7 @@
                         án web-app về từ điển trực tuyến ngôn ngữ Việt Nam, với dữ liệu khổng lồ các từ ngữ cho phép người
                         dùng có thể tra cứu. Ý tưởng dự án của khoa Ngữ Văn - Trường Đại học Sư Phạm TP.HCM</p>
                     <p id="p15"><strong>Người hướng dẫn chính:</strong> <i>Thầy Mai Văn Phương Vũ</i></p>
-                    <p ><a class=" btn btn-secondary" href="./components/TNVHDG_desc.html">Xem mô tả »</a></p>
+                    <p id="p19"><a class=" btn btn-secondary" href="./components/TNVHDG_desc.html">Xem mô tả »</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
                     <img class="bd-placeholder-img rounded-circle" width="140" height="140" role="img"
@@ -120,7 +120,7 @@
                         đang theo học tại Trường Đại học Sư Phạm TP.HCM.</p>
                     <p id="p17"><strong>Công nghệ sử dụng: </strong><i>HTML + Bootstrap (FE) - Laravel (BE) - MySQL</i></p>
                     <p id="p18"><strong>Hướng dẫn chính: </strong><i>tự nghiên cứu</i></p>
-                    <p ><a class=" btn btn-secondary" href="./components/Laravel_desc.html">Xem mô tả »</a></p>
+                    <p id="p20"><a class=" btn btn-secondary" href="./components/Laravel_desc.html">Xem mô tả »</a></p>
                 </div><!-- /.col-lg-4 -->
                 <div class="col-lg-4">
                     <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
@@ -137,7 +137,7 @@
                     <p id="p13">Còn có những project khác, được liệt kê rõ trong bản CV cá nhân, hoặc có thể xem ở dưới đây.</p>
                     <p>
                         <!-- <a class="btn btn-secondary" href="#" onclick="scrollToElement()">Cuộn xuống »</a> -->
-                        <button class="btn btn-secondary" onclick="scrollToElement()">Cuộn xuống »</button>
+                        <button class="btn btn-secondary" onclick="scrollToElement()" id="p21">Cuộn xuống »</button>
                     </p>
                 </div><!-- /.col-lg-4 -->
             </div><!-- /.row -->
@@ -150,14 +150,14 @@
 
             <!-- START THE FEATURETTES -->
 
-            <h3 class="mt-5 mb-3">Giới thiệu ngắn gọn</h3>
+            <h3 class="mt-5 mb-3" id="p22">Giới thiệu ngắn gọn</h3>
             <hr class="featurette-divider">
 
             <div class="row featurette" id="featurette-divider">
                 <div class="col-md-7">
                     <h2 class="featurette-heading fw-normal lh-1"><strong>Who Am I?</strong> </h2>
-                    <p class="lead">2002 - TP.HCM</p>
-                    <p><strong>Tôi là:</strong> Hoàng Tùng (Nam)</p>
+                    <p id="p22-1" class="lead">2002 - TP.HCM</p>
+                    <p id="p23"><strong>Tôi là:</strong> Hoàng Tùng (Nam)</p>
                     <p><strong>Gmail:</strong> <a href="mailto:tungng14@gmail.com">tungng14@gmail.com</a> </p>
                     <p><strong>Linkedin: </strong><a href="https://www.linkedin.com/in/t%C3%B9ng-ho%C3%A0ng-bb2990268/"
                             target="_blank">Hoàng Tùng</a></p>
@@ -175,20 +175,18 @@
 
             <div class="row featurette">
                 <div class="col-md-7 order-md-2">
-                    <h2 class="featurette-heading fw-normal lh-1"><strong>Kỹ năng của tôi</strong></h2>
-                    <p class="lead">My Skills</p>
+                    <h2 class="featurette-heading fw-normal lh-1"><strong id="p24">Kỹ năng của tôi</strong></h2>
+                    <p class="lead" id="p24-1">My Skills</p>
                     <p>PHP (Laravel)</p>
                     <p>SQL relational: MySQL, SQL Server
                         NoSQL: MongoDB, Firebase.</p>
-                    <p>.NET Core 6
-                        ReactJS</p>
-                    <p>C/C++,..</p>
-                    <p>VS Code, Canva, Visual Studio, Photoshop, MS Office, MS SQL Server,
-                        MySQL, MongoDB,..</p>
-                    <p>Git/Github, AWS, Vercel</p>
-                    <p>Đã được trải nghiệm phân bổ công việc nhóm theo chu trình Scrum
-                        qua công cụ Jira</p>
-                    <p> Linux Ubuntu, Windows</p>
+                    <p>.NET Core 6</p>
+                    <p>C/C++ basically,..</p>
+                    <p>VS Code, Visual Studio, MS Office (Word, Excel, PPT), MS SQL Server,
+                        MySQL,..</p>
+                    <p>Github, AWS, Vercel</p>
+                    <p id="p25">Đã được trải nghiệm phân bổ công việc nhóm theo chu trình Scrum qua công cụ Jira</p>
+                    <p> OS: Linux Ubuntu, Windows, Windows Server</p>
                 </div>
                 <div class="col-md-5 order-md-1">
                     <img class="bd-placeholder-img img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
@@ -206,9 +204,8 @@
 
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading fw-normal lh-1"><strong>Các dự án cá nhân</strong></h2>
-                    <h5><strong>(ngoài 2 dự án Private kể
-                            trên)</strong></h5>
+                    <h2 class="featurette-heading fw-normal lh-1"><strong id="p26">Các dự án cá nhân</strong></h2>
+                    <h5><strong id="p27">(ngoài 2 dự án Private kể trên)</strong></h5>
                     <p class="lead">My Projects</p>
                     <p>WebApp To Do List (ReactJS): <a href="https://github.com/TrHgTung/todolist-reactjs-tungth"
                             target="_blank">Source
@@ -223,9 +220,7 @@
                     <p>Bài tập lớn học phần Lập trình di động - TicTacToe 3*3 Big Project of Mobile App Development
                         (Java): <a href="https://github.com/TrHgTung/CTQM" target="_blank">Source
                         </a></p>
-                    <p>Web truyện (JS): <a href="https://github.com/TrHgTung/comic-re" target="_blank">Source & Live
-                            Demo
-                        </a></p>
+                    <p id="p28">Web truyện (JS): <a href="https://github.com/TrHgTung/comic-re" target="_blank">Source & Live Demo</a></p>
                 </div>
                 <div class="col-md-5">
                     <img class="bd-placeholder-img img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
@@ -243,8 +238,8 @@
 
         <!-- FOOTER -->
         <footer class="container mt-4 mb-5">
-            <p class="float-end"><a href="#">Cuộn lên đầu trang</a></p>
-            <p>© Hoàng Tùng @ 2023</p>
+            <p class="float-end"><a href="#" id="p30">Cuộn lên đầu trang</a></p>
+            <p>© Hoàng Tùng @ 2024</p>
             
         </footer>
     </main>
@@ -273,6 +268,19 @@
                 let p16 = document.getElementById("p16")
                 let p17 = document.getElementById("p17")
                 let p18 = document.getElementById("p18")
+                let p19 = document.getElementById("p19")
+                let p20 = document.getElementById("p20")
+                let p21 = document.getElementById("p21")
+                let p22 = document.getElementById("p22")
+                let p22_1 = document.getElementById("p22-1")
+                let p23 = document.getElementById("p23")
+                let p24 = document.getElementById("p24")
+                let p24_1 = document.getElementById("p24-1")
+                let p25 = document.getElementById("p25")
+                let p26 = document.getElementById("p26")
+                let p27 = document.getElementById("p27")
+                let p28 = document.getElementById("p28")
+                let p30 = document.getElementById("p30")
 
                 p1.innerText = "Hello"
                 p2.innerText = "Click the button to see my Curriculum vitae (CV)"
@@ -292,6 +300,19 @@
                 p16.innerText = "It is a simple e-commerce project, serving a major assignment in the Web Technology subject while studying at Ho Chi Minh City University of Pedagogy."
                 p17.innerHTML = "<strong>Technology used: </strong><i>HTML + Bootstrap (FE) - Laravel (BE) - MySQL</i>"
                 p18.innerHTML = "<strong>Self-study </strong>"
+                p19.innerHTML = "<a class='btn btn-secondary' href='./components/TNVHDG_desc.html'>View details »</a>"
+                p20.innerHTML = "<a class='btn btn-secondary' href='./components/Laravel_desc.html'>View details »</a>"
+                p21.innerText = "Scroll down"
+                p22.innerText = "About me"
+                p22_1.innerText = "2002 - Ho Chi Minh City"
+                p23.innerHTML = "<strong>I am:</strong> Hoàng Tùng (Male)"
+                p24.innerText = "My Skills"
+                p24_1.innerText = " "
+                p25.innerText = "Experienced in distributing team work according to the Scrum cycle through the Jira tool"
+                p26.innerText = "Other personal projects"
+                p27.innerText = " "
+                p28.innerHTML = "Comic book (using JS): <a href='https://github.com/TrHgTung/comic-re' target='_blank'>Source & LiveDemo</a>"
+                p30.innerText = "Scroll to the top"
             }
 
         </script>
